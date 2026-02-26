@@ -268,6 +268,6 @@ For ideas, use the [feature request template](.github/ISSUE_TEMPLATE/feature_req
 
 ## License
 
-This project is licensed under the **GNU General Public License v3.0**.
-See [LICENSE](LICENSE) for the full text.
+This project is licensed under the MIT License.
+See LICENSE for the full text.
 
