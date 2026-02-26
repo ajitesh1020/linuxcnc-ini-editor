@@ -73,7 +73,7 @@ linuxcnc-ini-editor/
         └── feature_request.md
 ```
 
-> **Note:** The `.ini` configuration files (`6050_iCam.ini`, etc.) are machine-specific and are **not** committed to the repository. They stay on your LinuxCNC machine. The editor opens them from their original location on disk.
+> **Note:** The `.ini` configuration files are machine-specific and are **not** committed to the repository. They stay on your LinuxCNC machine. The editor opens them from their original location on disk.
 
 ---
 
@@ -92,7 +92,7 @@ All other dependencies (`configparser`, `logging`, `shutil`, `pathlib`, `datetim
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/linuxcnc-ini-editor.git
+git clone https://github.com/ajitesh1020/linuxcnc-ini-editor.git
 cd linuxcnc-ini-editor
 ```
 
@@ -124,7 +124,7 @@ python3 main.py
 1. Launch the application: `python3 main.py`
 2. Click **File → Open INI** or the **"Open INI"** toolbar button
 3. Navigate to your LinuxCNC config directory (default: `~/linuxcnc/configs/<machine>/`)
-4. Select your `.ini` file (e.g. `6050_iCam.ini`)
+4. Select your `.ini` file
 
 ### Editing values
 
@@ -271,4 +271,3 @@ For ideas, use the [feature request template](.github/ISSUE_TEMPLATE/feature_req
 This project is licensed under the **GNU General Public License v3.0**.
 See [LICENSE](LICENSE) for the full text.
 
-© 2025 Ajitesh Kannoja — Industrial Controls
