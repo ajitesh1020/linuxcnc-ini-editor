@@ -1,4 +1,3 @@
-# gui.py (fixed sections)
 import os
 import sys
 import logging
@@ -518,8 +517,8 @@ class LinuxCNCConfigEditor(QMainWindow):
         # Set window icon and author info
         self.author_info = QLabel()
         self.author_info.setText(
-            "© 2025 Ajitesh Kannoja | Company: CNCToolTech | "
-            "Version 1.0.0 | Licensed under GPL v3.0"
+            "© 2025 Ajitesh Kannoja | Company: [Industrial Controls] | "
+            "Version 1.0.0 | Licensed under MIT License"
         )
         self.author_info.setAlignment(Qt.AlignCenter)
         self.author_info.setStyleSheet("color: gray; font-size: 9pt; padding: 2px;")
@@ -577,9 +576,9 @@ class LinuxCNCConfigEditor(QMainWindow):
         button_layout.addWidget(self.logging_checkbox)
         
         # Add GPL notice
-        gpl_label = QLabel("This program is free software: you can redistribute it and/or modify "
-                          "it under the terms of the GNU General Public License as published by "
-                          "the Free Software Foundation, either version 3 of the License.")
+        gpl_label = QLabel("This software is released under the MIT License. "
+                          "Free to use, modify, and distribute. "
+                          "See LICENSE file for details.")
         gpl_label.setWordWrap(True)
         gpl_label.setStyleSheet("color: gray; font-size: 8pt;")
         button_layout.addWidget(gpl_label)
